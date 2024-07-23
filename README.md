@@ -46,9 +46,9 @@ To get started with the project, follow these steps:
    npm run dev
    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-![Screenshot 2024-07-23 212100](https://github.com/user-attachments/assets/dccf1344-8b20-4f50-a52a-6331e4e1464a)
-![Screenshot 2024-07-23 212135](https://github.com/user-attachments/assets/0cd06739-8980-4515-9365-42b2dcd5a15a)
-![Screenshot 2024-07-23 211053](https://github.com/user-attachments/assets/7c855a93-33dc-4ee2-ac21-7fdad2cb6446)
-![Screenshot 2024-07-23 212932](https://github.com/user-attachments/assets/c916ce80-c1f1-4dae-bfb6-808b0fcede96)
+![Screenshot 2024-07-23 212932](https://github.com/user-attachments/assets/962c4cbe-7d72-4f58-8b07-342160c68760)
+![Screenshot 2024-07-23 211053](https://github.com/user-attachments/assets/8f2a4b31-387a-45c5-af17-f04692c9f980)
+![Screenshot 2024-07-23 212135](https://github.com/user-attachments/assets/0017e756-80bd-4b86-bfc7-9d76b7e4c6eb)
+![Screenshot 2024-07-23 212100](https://github.com/user-attachments/assets/55e180f6-d15d-4b7c-ab6a-ba2b3c507cc6)
+
 
