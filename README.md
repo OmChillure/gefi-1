@@ -1,70 +1,54 @@
-# Demo App
+# Full-Stack dApp with Next.js, Tailwind CSS, TypeScript, and Garden Finance SDK
 
-This project demonstrates how to use the [Garden SDK](https://docs.garden.finance/developers/sdk/) to create a simple dApp for swapping from WBTC to BTC.
+## Table of Contents
 
-> [!NOTE]
-> For better developer experience, we are conducting the swap on a local network, but you can do the same on Testnet or Mainnet by changing the parameters.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project is a full-stack decentralized application (dApp) built using Next.js, Tailwind CSS, TypeScript, and the Garden Finance SDK. The application leverages the power of decentralized finance (DeFi) to provide a seamless and secure user experience.
 
 ## Features
 
-- **Merry** : Provides a comprehensive environment for multichain operations. 
-- **Swap Interface**: Easily swap from WBTC to BTC.
-- **Transaction Management**: Track and display the latest transactions.
-- **Garden SDK Integration**: Uses Garden SDK to make the swap possible.
-- **State Management**: We use [zustand](https://zustand-demo.pmnd.rs/) for state management.
+- **Next.js** for server-side rendering and static site generation.
+- **Tailwind CSS** for responsive and modern UI design.
+- **TypeScript** for type-safe development.
+- **Garden Finance SDK** for interacting with decentralized finance protocols.
 
-## Environment Setup
+## Tech Stack
 
-To improve the developer experience, we will be using [Merry](https://docs.garden.finance/developers/merry/) to set up the multichain environment necessary for performing a swap. This setup includes all essential components such as the [Orderbook](https://docs.garden.finance/developers/fundamentals/orderbook/), [Filler](https://docs.garden.finance/developers/fundamentals/filler/), [Faucet](https://www.alchemy.com/faucets#faucets-switchback-right-light), and nodes for Bitcoin, Ethereum, and Arbitrum.
+- **Frontend**: Next.js, Tailwind CSS, TypeScript
+- **Backend**: Next.js API routes
+- **Blockchain Interaction**: Garden Finance SDK
 
-1. Install Merry
+## Installation
 
-```bash
-curl https://get.merry.dev | bash
-```
+To get started with the project, follow these steps:
 
-2. Start Merry
+1. **Clone the repository:**
 
-```bash
-# Start Merry with explorer
-merry go
-```
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+2. **Install the dependencies**
+   ```sh
+   npm install
+   ```
+3. **Run the app**
+   ```sh
+   npm run dev
+   ```
 
-or
-
-```bash
-# Start Merry without explorer
-merry go --headless
-```
-
-3. Fund your EVM address
-
-```bash
- merry faucet --to <EVM Address>
-```
-
-## Project Setup
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/gardenfi/demo-app
-cd demo-app
-```
-
-2. Install dependencies
-
-```bash
-bun install
-```
-
-3. Run the development server
-
-```bash
-bun run dev
-```
-
-The dApp should look something like this
-
-![final_dapp](https://github.com/Sushants-Git/demo-app/assets/100516354/bf939a2f-3ac1-40f6-882c-c779ee4928ee)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot 2024-07-23 212100](https://github.com/user-attachments/assets/dccf1344-8b20-4f50-a52a-6331e4e1464a)
+![Screenshot 2024-07-23 212135](https://github.com/user-attachments/assets/0cd06739-8980-4515-9365-42b2dcd5a15a)
+![Screenshot 2024-07-23 211053](https://github.com/user-attachments/assets/7c855a93-33dc-4ee2-ac21-7fdad2cb6446)
+![Screenshot 2024-07-23 212932](https://github.com/user-attachments/assets/c916ce80-c1f1-4dae-bfb6-808b0fcede96)
 
